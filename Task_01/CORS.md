@@ -44,3 +44,5 @@ interface CorsOptions {
   maxAge?: number | undefined;
 }
 ```
+
+[Solution](https://github.com/martinakraus/angular-security-intro-2025/commit/08e9a1c4d528ee8bdee98d178e549c7ec4a3f152)

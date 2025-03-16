@@ -20,3 +20,5 @@ app.get('/', function (req, res) {
   res.send(view);
 });
 ```
+
+[Solution](https://github.com/martinakraus/angular-security-intro-2025/commit/f7bc183b26696253d397ea860283193cc43255a1)

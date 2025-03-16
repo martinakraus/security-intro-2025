@@ -39,3 +39,5 @@ if (req.headers["x-xsrf-token"] !== cookie) {
   return;
 }
 ```
+
+[Solution](https://github.com/martinakraus/angular-security-intro-2025/commit/51d4a875e5c4986c64c07721273bf5f451865e5b)
