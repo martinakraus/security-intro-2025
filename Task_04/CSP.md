@@ -2,8 +2,8 @@
 
 ### Basic CSP
 
-- Open the application `xss-attack` (you can use the same Application from Task 03)
-- Make sure the XSS attack takes place so we know we mitigate it with the CSP Header
+- Open the application `xss-attack`
+- Make sure the XSS attack takes place so we know we mitigate it with the CSP Header (You have to redo the attack)
 - Configure a minimalistic CSP in angular side (index.html)
   with the following value and observe the result
   (see console log):
@@ -12,6 +12,13 @@
 
 `Note: The Angular CLI doesn't recognize changes on the index.html. You must restart "ng serve"
  manually`
+
+### CSP Hashes
+
+- In index.html, declare an arbitrary inline scripting : `<script>document.write('<h1>Inline scripting is <b>not recommended</b>! But if you have not the choice, <b>secure your app with CSP</b></h1>');</script>`
+- Update the CSP in order to allow this inline scripting securely (consider CSP3 SHA-256 hash syntax)
+
+Hints : To generate the hash of the script content, use this online tool : [Report-Uri Hash](https://report-uri.com/home/hash) (beware of spaces and carriage returns...)
 
 ### Hints
 
