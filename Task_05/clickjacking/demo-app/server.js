@@ -26,7 +26,7 @@ app.get('/', function (req, res) {
   const view = template.replace('$reviews$', formattedReviews);
   // ToDo:
   // Set Content-Security-Policy header to frame-ancestors 'none' to protect yourself from clickjacking
-    // res.setHeader('Content-Security-Policy', "frame-ancestors 'none'");
+    res.setHeader('Content-Security-Policy', "frame-ancestors 'none'");
   res.send(view);
 });
 
