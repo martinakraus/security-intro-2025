@@ -6,7 +6,7 @@ const cors = require('cors');
 const app = express();
 
 // ToDo: configure CORS policy here
-//  app.use(cors({}));
+ app.use(cors({}));
 
 const port = 4000;
 
