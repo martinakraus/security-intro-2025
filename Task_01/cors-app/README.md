@@ -1,5 +1,10 @@
 # Complex CORS Request Task
 
+## Setup
+
+Install the dependencies first:
+`npm install`
+
 From the root directory of this folder you need to start two Servers:
 (You need to also do this in two separate terminals):
 
