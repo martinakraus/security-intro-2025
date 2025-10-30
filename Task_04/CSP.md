@@ -1,8 +1,16 @@
 # Content-Security-Policy
 
+# Setup and Preparation
+
+This project needs a backend first:
+
+- Start the Book-Dummy-Backend with `npx bookmonkey-api`
+
 ### Basic CSP
 
-- Open the application `xss-attack`
+- Navigate to the application `xss-attack` in your terminal
+- Install the dependencies `npm install`
+- Start the application with `npm start`
 - Make sure the XSS attack takes place so we know we mitigate it with the CSP Header (You have to redo the attack)
 - Configure a minimalistic CSP in angular side (index.html)
   with the following value and observe the result
