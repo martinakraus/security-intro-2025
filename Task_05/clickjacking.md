@@ -2,8 +2,8 @@
 
 ### Setup
 
-- Open the vulnerable application `demo-app` and install the denpendencies: `npm install`
-- Open the attacker server `attacker-server` and install the denpendencies: `npm install`
+- Navigate to the vulnerable application `demo-app` and install the denpendencies: `npm install`
+- Open another terminal and navigate to the attacker server `attacker-server` and install the denpendencies: `npm install`
 - You start both servers with `npm start`:
 - Visit `http://localhost:3000` to check if the Vulnerable Movie Center is up and running.
 - Visit `http://localhost:4000` to check if attacker server displays the demo app correctly.
@@ -21,4 +21,4 @@ app.get('/', function (req, res) {
 });
 ```
 
-[Solution](https://github.com/martinakraus/angular-security-intro-2025/commit/f7bc183b26696253d397ea860283193cc43255a1)
+[Solution](https://github.com/martinakraus/security-intro-2025/commit/f7bc183b26696253d397ea860283193cc43255a1)

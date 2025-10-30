@@ -1,8 +1,6 @@
 const express = require("express");
 const session = require('express-session');
 const fs = require('fs');
-var xFrameOptions = require('x-frame-options')
-
 
 const port = 3000;
 const app = express();
