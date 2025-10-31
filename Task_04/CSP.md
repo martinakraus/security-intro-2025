@@ -18,7 +18,7 @@ This project needs a backend first:
   `default-src 'none'; script-src 'self'; connect-src 'self'; img-src 'self'; style-src 'self';`
 - Update step by step the configuration in order to make the website load properly (Content-Security-Policy header)
 
-`Note: The Angular CLI doesn't recognize changes on the index.html. You must restart "ng serve"
+`Note: The Angular CLI doesn't always recognize changes on the index.html. You must then restart "ng serve"
  manually`
 
 ### CSP Hashes
