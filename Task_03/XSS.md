@@ -4,7 +4,7 @@ This project needs a backend first:
 
 - Start the Book-Dummy-Backend with `npx bookmonkey-api`
 
-### Executing th attack
+### Executing the attack
 
 - Navigate to the application `xss-attack` in your terminal
 - Install the dependencies `npm install`
