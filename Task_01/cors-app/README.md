@@ -10,7 +10,7 @@ From the root directory of this folder you need to start two Servers:
 
 ## Starting first Web Server:
 
-Insert following command inside the terminak: `npm start`
+Insert following command inside the terminal: `npm start`
 
 You should see following output:
 
